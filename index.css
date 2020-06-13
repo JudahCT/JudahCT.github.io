@@ -9,8 +9,8 @@ background-image:url(now.jpg);
 
 }
 .all{
-  background:rgba(0, 0, 0, 0.81);
-height: 48em;
+  background:rgba(0, 0, 0, 0.85);
+height: 28.8em;
 
 }
 .both{
@@ -86,7 +86,7 @@ margin-left: 1%;
 
 .three{
   color:white;
-font-size: 85%;
+font-size: 80%;
   margin-left: 5%;
 }
 
@@ -96,8 +96,6 @@ font-size: 85%;
 .x{
   margin-left: 5%;
   background-color: white;
-    height: 13em;
-width: 15em;
 }
 .x h4{
   background-color: teal;
@@ -108,8 +106,6 @@ width: 15em;
 .y{
   margin-left: 5%;
   background-color: teal;
-    height: 13em;
-    width: 15em;
 }
 .y h4{
   background-color: white;
@@ -120,8 +116,6 @@ width: 15em;
 .z{
   margin-left: 5%;
   background-color: white;
-  height: 13em;
-  width: 15em;
 }
 .z h4{
   background-color: teal;
@@ -153,6 +147,45 @@ margin-left: 3%;
   margin-right: 3%;
 }
 
+
+
+
+
+
+
+
+.pro img{
+margin-top: 2%;
+  width: 20%;
+
+  border-radius: 13px;
+  margin-left: 115%;
+}
+.pro p{
+  display: none;
+}
+
+.pri img{
+margin-top: 2%;
+  width: 40%;
+  opacity: 0.8;
+  border-radius: 3px;
+  display: none;
+}
+
+
+.last{
+
+  background: rgba(0, 0, 0, 0.80);
+}
+.muka{
+  display: flex;
+}
+
+
+
+
+
 }
 @media only screen and (max-width:420px ) {
   body{
@@ -160,11 +193,11 @@ margin-left: 3%;
   margin: 0;
   padding: 0;
   background-size: cover;
-  background-image:url(now.jpg);
+  background-image:url(NOW.jpg);
   }
   .all{
-    background:rgba(0, 0, 0, 0.76);
-  height: 71.8em;
+    background:rgba(0, 0, 0, 0.8);
+  height: 67.8em;
 padding-right: 5%;
 margin-top: 0;
   }
@@ -271,7 +304,6 @@ margin-left: 0;
     background-color: white;
     width: 85%;
     font-size:70%;
-
     margin-bottom: 6%;
     height:15em;
   }
@@ -286,13 +318,13 @@ margin-left: 0;
     background-color: teal;
       width: 85%;
       font-size:70%;
-      margin-bottom: 6%;
+      margin-bottom: %;
       height:15em;
   }
   .y h4{
     background-color: white;
     padding: 4px;
-    margin-top: 0;
+
   }
 
   .z{
@@ -300,8 +332,8 @@ margin-left: 0;
     background-color: white;
       width: 85%;
       font-size:70%;
-
       height:15em;
+
   }
   .z h4{
     background-color: teal;
@@ -315,10 +347,29 @@ margin-left: 0;
 }
 .ico ul{
   margin-left: 0;
-  margin-top: 30%;}
+  margin-top: 0;
+margin-top:7%}
+
 .ico a {
   padding:10px;
 
 }
+
+
+.pro img{
+margin-top: 2%;
+  width: 40%;
+  opacity: 0.9;
+  border-radius: 3px;
+}
+
+
+
+.last{
+
+  background: rgba(0, 0, 0, 0.65);
+}
+
+.pri{display: none;}
 
 }
