@@ -14,10 +14,12 @@ height: 28.8em;
 
 }
 .both{
+padding-top:2%;
+  display: flex;
+background-color: black;
 padding-top: 10px;
   display: flex;
 background-color: black;
-opacity: 0.85;
 }
 
 .name{
