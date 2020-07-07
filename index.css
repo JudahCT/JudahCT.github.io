@@ -17,6 +17,9 @@ height: 28.8em;
 padding-top:2%;
   display: flex;
 background-color: black;
+padding-top: 10px;
+  display: flex;
+background-color: black;
 }
 
 .name{
