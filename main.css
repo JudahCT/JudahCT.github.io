@@ -1,0 +1,38 @@
+
+
+@media only screen and (min-width:768px){
+	
+
+	.tose{
+	font-weight:bolder;
+		margin-top:6%;
+	}
+	
+	.tose hr{width:60%;}
+	
+.ba a{
+	border:1px solid white;
+	color:white;
+	text-decoration:none;
+	padding:1%;
+	border-radius:4px;
+	
+}
+
+}
+
+@media only screen and (max-width:568px){
+	.three{display:none;}
+	.tose{
+		margin-top:25%;
+	}
+	
+	.tose hr{width:80%;}
+	a{
+		border:1px solid white;
+	color:white;
+	text-decoration:none;
+	padding:4%;
+	border-radius:4px;
+	margin-top:25%;}
+}
