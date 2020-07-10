@@ -1,32 +1,15 @@
 
 @media only screen and (min-width:768px){
-body{
-margin: 0;
-padding: 0;
-background-size: cover;
-  background-position:center;
-  background-repeat:no-repeat;
-
-background-image:url(new.jpg);
-
-}
-
-
-.one ul i{display:none;}
-
-.name button{
-	display:none;
-}
 
 
 iframe{
-	
-	height:34.9em;
+	margin-top:0;
 }
+	
 
 .all{
-  background:rgba(0, 0, 0, 0.75);
-height: 49.8em;
+  background:rgba(0, 0, 0, 0.85);
+height: 43.8em;
 
 }
 .both{
@@ -192,7 +175,7 @@ margin-top: 2%;
 
 .last{
 
-  background: rgba(0, 0, 0, 0.80);
+  background: rgba(0, 0, 0, 0.0);
 }
 .muka{
   display: flex;
@@ -204,21 +187,8 @@ margin-top: 2%;
 
 }
 @media only screen and (max-width:420px ) {
-  body{
-  margin: 0;
-  margin: 0;
-  padding: 0;
-  background-size: cover;
-  background-image:url(noow.jpg);
-  background-position:center;
-  background-repeat:no-repeat;
-  }
-  .all{
-    background:rgba(0, 0, 0, 0.8);
- 
-padding-right: 5%;
-margin-top: 0;
-  }
+  
+  
   .both{
 margin-top: 0;
 padding-right: 5.3%;
@@ -226,7 +196,6 @@ padding-right: 5.3%;
   background-color: black;
   width: 100%;
   opacity: 0.76;
-  padding-top:2%;
   }
 
   .name{
@@ -234,9 +203,8 @@ padding-right: 5.3%;
 
   color:pink;
   margin-left: 5%;
-  font-size:90%;
+  font-size:70%;
   margin-right: 0;
-  
   }
 
 .one{
@@ -245,18 +213,15 @@ padding-right: 5.3%;
 }
 
   .one ul{
-    display:none;
+    display: flex;
     margin-left: 0;
 margin-top: 0;
-background-color:gray;
+
     padding-left: 4.4%;
-	width:100%;
-	margin-right:0;
-	  
   }
 
   .one ul li{
-    margin-bottom:4%;
+    margin-right: 2px;
     list-style: none;
 margin-left: 0;
 
@@ -265,8 +230,8 @@ margin-left: 0;
     color:white;
     text-decoration: none;
     margin-right: 5px;
-	
-    font-size: 80%;
+
+    font-size: 60%;
   }
 
   .one a:hover{
@@ -314,7 +279,6 @@ margin-left: 0;
 
 
   }
-
 
 
 
@@ -390,25 +354,15 @@ margin-top: 2%;
 
 .last{
 
-  background: rgba(0, 0, 0, 0.65);
+  background: rgba(0, 0, 0, 0.65)=;
 }
 
 .pri{display: none;}
 
-
-
 iframe{
-	width:100%;
-	height:30em;
-	margin-right:0;
-}
-
-.name button{
-	float:right;
+	margin-top:0;
+	height:40em;
 }
 
 
-
 }
-
-	
