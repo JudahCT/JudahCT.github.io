@@ -18,6 +18,19 @@
 	border-radius:4px;
 	
 }
+	
+	
+		
+.ba a{
+	border:1px solid white;
+	color:white;
+	text-decoration:none;
+	padding:1%;
+	border-radius:4px;
+	text-shadow:2px 2px green;
+	
+}
+h2{text-shadow:2.3px 2.3px navy;}
 
 }
 
@@ -35,4 +48,17 @@
 	padding:4%;
 	border-radius:4px;
 	margin-top:25%;}
+	
+		
+.ba a{
+	border:1px solid white;
+	color:white;
+	text-decoration:none;
+	padding:1%;
+	border-radius:4px;
+	text-shadow:2px 2px green;
+	
+}
+h2{text-shadow:2.3px 2.3px navy;}
+	
 }
