@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+     <meta name="google-site-verification" content="1qT9DmnzEr8oDF0OgeezEw652ls_9aNEOI3vy2-nqcg" />
+    <meta charset="utf-8">
+    <title>Judah T CHISARE||Portfolio</title>
+    <script src="https://kit.fontawesome.com/48753502fe.js"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.0/animate.compat.css">
+    <link rel="stylesheet" href="blog.css">
+    
+    
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+</HEAD>
+<body>
+<header><h1>PHP FOR ABSOLUTE BEGGINERS</h1></header><br>
+<div class="cala">
+<u><b>Introduction</b></u><br><br>
+Php is a server side(backend) scripting language frequently used by most developers for small and medium size backend projects.It is used to manage dynamic content,databases ,content management systems  etc.
+Php is intergrated with quite a number of popular databases including  MySQL,Oracle Sybase,PostgreSQL etc.But in this tutorial we will be using MySQL.
+<br><br>
+<u>Prerequisites</u><br>
+1)Basic HTML<br>
+2)Basic CSS<br>
+3)Basic MySQL<br>
+</div>
+<br>
+<div class="cala">
+<u><b>USES OF PHP</b></u><br><br>
+1.add items in your database.<br>
+2.delete or update your database items.<br>
+3.access items in your database.<br>
+4.restrict some users to access some pages of your website.<br>
+5.Access cookies variables and set cookies.<br><br>
+</div>
+<hr>
+</hr><br>
+<div class="cala">
+<u><b>Environmental Setup</b></u><br><br>
+
+
+<b>Software requirements</b><br>
+
+1.<b>Web Server</b>:(XAMPP/WAMP)<br>
+
+2.<b>Text Editor</b>:(Notepad/Notepad++/VS Code etc)<br>
+
+3.<b>Database</b>:(MySQL,Oracle)<br><br>
+
+
+<b>NB</b>:<i>you should not worry about the database for in our case we are going to use MySQL,which is part of the xampp package.</i><BR>
+Click  <a href="https://www.apachefriends.org/download.html">here </a>to download xammp.<br>
+
+<em>Run xammp after installation and start Apache and MySQL.</em></div>
+<BR>
+<br>
+<div class="cala">
+<u><b>HOW TO</b></u><br><br>
+PHP local projects are saved in a folder written htdocs inside of of your xammp directory.<br>
+xammp->htdocs->create new folder<br>
+You then create a folder to store your projects,in our case we are going to name it "projects".
+NB:Your php is written as a separate file or embedded in your html file.In our case we will be embedding it in an html file.
+<br>
+save your first file as index.php
+</div>
+<hr>
+</hr>
+
+<B>Basic php syntax 1</B><br>
+
+<div class="example">
+<span class="code">
+				<br>
+			
+				<span style="color:red">&lt;?php</span>
+				<br>
+				$a="hello world";<br>
+				echo "$a";
+				<br>
+				<span style="color:red">?&gt;</span><br>
+				<div class="inner">
+				<u>Output</u><br>
+				<span>Hello World</span>
+				</div>
+</span>
+</div>
+
+<p>
+<ul>
+<li>That code will print out "hello world".The $ sign is always used when declaring,defining and using a variable.Unlike in C,the variable is always declared whenever you want to use it.</li>
+<br><li>$a is the declaration of "a" to the value "hello world".</li><BR>
+<li>The echo from (echo $a) is used for displaying output.You can use print instead of echo but l personally preffer echo.</li>  <BR>
+<li>&lt;?php.....?&gt;:inside of these tags is where all our php is written,without the tag our code will not be identified as php.</li>
+</ul>
+</p>
+
+
+
+
+<B>Adding two values</B><br>
+
+<div class="example">
+<span class="code">
+				<br>
+			
+				<span style="color:red">&lt;?php</span>
+				<br>
+				$a=5;<br>
+				$b=13;<br>
+				echo "$a+$b";
+				<br>
+				<span style="color:red">?&gt;</span><br>
+				<div class="inner">
+				<u>Output</u><br>
+				<span>18</span>
+				</div>
+</span>
+</div>
+<br>
+<hr>
+</hr><br>
+<B>Adding two values from user input</B><br>
+In the previous example we added two <b>initialised</b> variables $a and $b,in this example we want to add two variables from a user input.<BR>
+We are going to be introduced to the concept of global variables(GET and POST) to obtain data from form inputs.
+
+
+<div class="example">
+<span class="code">
+				<br>
+			
+			
+			
+				<span style="color:red">&lt;?php</span>
+				<br>
+				$_POST['one']=$a;<br>
+				$_POST['two']=$b;<br>
+				
+				echo $a+$b;<br>
+				
+				
+				
+			
+				<br>
+				<span style="color:red">?&gt;</span><br>
+				
+				&lt;!DOCTYPE html&gt;<br>
+				&lt;html&gt;<br>
+				&lt;head&gt;<br>
+				&lt;title&gt;Adding 2 values&lt;/title&gt;<br>
+				
+				&lt;/head&gt;	<br>
+				<div class="fomu">
+				&lt;body&gt;<br>
+				&lt;form method="POST" action="#"&gt;<br><br>
+				&lt;input type="text" name="one"&gt;<br>
+				&lt;input type="text" name="two"&gt;<br>
+				&lt;button type="submit" name="add"&gt;add&lt;button&gt;<br><br>
+				&lt;/form&gt;<br>
+				&lt;/body&gt;<br></div>
+				&lt;/html&gt;<br>
+				</div>
+				<div class="inner">
+				<u>Output</u><br>
+				<input type="text" name="one" value="9" readonly><br>
+				<input type="text" name="two" value="17" readonly><br>
+				<button type="submit" name="add">add</button><BR>
+				<span>26</span>
+				</div>
+				
+				
+</span>
+</div>
+<br>
+<b><u>Database Connection</u></b><br>
+There is no point of using php if you dont need to connect your website to a database.<br>
+We are going to be using a MySQL database in all our practises.Note that MySQL database can be manipulated using DOM or Mysqli.<br>We are going to use the latter(Mysqli).
+<BR><br>
+<b>Creating a database</b><br>
+1.open your browser<br>
+2.type in "localhost/" in your addressbar<br>
+3.click phpMyAdmin<br>
+4.Create a database<br>
+5.Create a table<br>
+
+<br>
+
+<b>NB</b>:Make sure you put a primary key on your table.
+
+<br>
+<Br>
+
+<u><b>Establishing a Connection</b></u><br>
+create a varible to hold your database connection,with the format :<b style="font-size:80%"><div  class="barwa">$db=mysqli_connect('localhost','database','password','database name');</div></b></br>
+<ul><li><b>$db</b> is a variable allocated to our connection,it can have any name but l just preffer  using $db,others preffer using <b>$conn</b></li><br>
+	<li><b>mysqli_connect</b> is a predefined function for  database connections					</li>	<br>
+	<li>			<b>localhost </b>	it is the servername	</li>	<br>
+	<li>			<b>username </b>it is the username(in our case <b>root</b>) 	</li>	<br>
+	<li>			<b> password </b>it is the password of the main database		</li>	<br>
+	<li>			<b> database name </b>is the name of the database which you create in phpMyAdmin		</li>	<br>
+</ul>
+<br>			<u>code example</u><br>
+<div class="example">
+				<span style="color:red">&lt;?php</span>
+				<br>
+				session_start();<br>
+				$db=mysqli_connect('localhost','root','','users');<br>
+				session_destroy();<br>
+				<br>
+				<span style="color:red">?&gt;</span><br>
+</div>
+Note that on the above illustration l put empty qoutes('') for our password field because we didnt put a password to our root database.Localhost is our server,root is our database,users is our database name.
+
+<Br><Br>
+<B><u>Adding items to the database</u></b><br><br>
+Adding items to the database is one of the most significant operations on the database.As l mentioned earlier we are going to be using Mysqli for our database operations<br>
+<BR>
+Here we are going to use our database with database name <B>users</b> and a table name <b>credentials</b><br>
+<div style="color:blue">
+$sql="INSERT INTO <b>credentials</b> (username,password) values('$username','$password')";<br>
+mysqli_query($db,$sql);<br>
+</div>
+
+<ul><li><b>$sql</b> is a variable allocated to our inserting string,<b>NB</B>:it can have any name </b></li><br>
+	<li><b>INSERT INTO</b> is an SQL statement for inserting items into a table					</li>	<br>
+	<li><b>credentials</b>	is our table name we intend to insert items into	</li>	<br>
+	<li><b>(username,password)</b>:our table column names 	</li>	<br>
+	<li><b> values('$username','$password')</b>:putting values(data) from the user input to the table columns.		</li>	<br>
+	<li><b> mysqli_query()</b>:is a predefined function for executing the sql statement with two arguments,$db(connection string) and $sql(sql statement)	</li>	<br>
+</ul>
+<BR>
+
+<br>			<u>code example</u><br>
+<div class="example">
+				<span style="color:red">&lt;?php</span>
+				<br><div class="fomas" style="margin-left:2%;"  >
+				<span style="color:blue">session_start()</span>;<br>
+				$db=mysqli_connect('localhost','root','','users');<br>
+				if(isset($_POST['signup']))<br>{<br><div class="fomas" style="margin-left:2%;"  >
+				
+					
+					<div class="longa">
+				<span style="color:red">$username</span>=mysqli_real_escape_string($db,$_POST['username']);//<span style="color:green"><div class="only">declaring username from user input</div></span><br>
+				<span style="color:red">$password</span>=mysqli_real_escape_string($db,$_POST['password']);//<span style="color:green"><div class="only">declaring password from user input</div></span>
+				<br><Br>
+					<span style="color:red">$sql</span>="INSERT INTO <b>credentials</b> (username,password) values('<span style="color:red">$username</span>','<span style="color:red">$password</span>')";<br>
+					mysqli_query(<span style="color:red">$db</span>,<span style="color:red">$sql</span>);<br>
+					</div>
+					
+					
+				</div>
+				}<br>
+				
+				<span style="color:blue">session_destroy()</span>;<br></div>
+				<br>
+				<span style="color:red">?&gt;</span><br><br>
+				
+								&lt;!DOCTYPE html&gt;<br>
+				&lt;html&gt;<br>
+				&lt;head&gt;<br>
+				&lt;title&gt;signing up&lt;/title&gt;<br>
+				
+				&lt;/head&gt;	<br>
+				<div class="fom" style="color:gray;margin-left:2%;"  >
+				&lt;body&gt;<br>
+				&lt;form method="POST" action="#"&gt;<br><br>
+				&lt;input type="text" name="username"&gt;<br>
+				&lt;input type="text" name="password"&gt;<br>
+				&lt;button type="submit" name="signup"&gt;submit&lt;button&gt;<br><br>
+				&lt;/form&gt;<br>
+				&lt;/body&gt;<br></div>
+				&lt;/html&gt;<br>
+</div>
+		<div class="inner">
+				<u>Output</u><br>
+				<b style="color:hotpink">html</b><br>
+				<input type="text" name="username" value="Judah@gmail.com" readonly><br>
+				<input type="text" name="password" value="1234" readonly><br>
+				<button type="submit" name="signup">signup</button><BR><br>
+				
+				<b style="color:hotpink">php/mysql</b><br>
+				<img src="one.png">
+				
+				</div>
+				To understand the code better,start by looking at the html part of it then the php later.<br>
+				To confirm that your insertion was successful go to your <b>localhost/->phpMyAdmin->users->credentials</b>.<br>
+				
+<ul><li><b>if(isset($_POST['signup']))</b> : isset is a function inside of an if statement saying if the user clicks a button with the name <b>'signup'</b> then execute everything inside of the if statement</li><br>
+<li><b>$username</b> declaring username from user input,<b></b></li><br>
+	<li><b>password</b> declaring username from user input				</li>	<br>
+	<li><b>credentials</b>	is our table name we intend to insert items into	</li>	<br>
+	<li><b>mysqli_real_escape_string()</b>:it is a predefined function for encoding user input data to be acceptable by the database,its used when declaring a php variable and contains 2 arguments,connection string<B>($db)</b> and the posted user input name <b>($_POST['username'])</b></li>	<br>
+	<li><b> values('$username','$password')</b>:putting values(data) from the user input to the table columns inform of php variables.		</li>	<br>
+	<li><b> mysqli_query()</b>:is a predefined function for executing the sql statement with two arguments,$db(connection string) and $sql(sql statement)	</li>	<br>
+</ul>
+
+
+<hr></hr><BR>
+
+<u><B>Displaying table data inform of an HTML table</b></u><br>
+we now want to see everything in our database without going to the backend/phpMyAdmin.It is simple,our main focus here is the sql command <B>"select * from credentials"</B> and the <B>echo $variable_name;</B>
+<div class="example">
+				<span style="color:red">&lt;?php</span>
+				<br><div class="fomas" style="margin-left:2%;"  >
+				<span style="color:blue">session_start()</span>;<br>
+				<span style="color:red">$db</span>=mysqli_connect('localhost','root','','users');<br>
+					<span style="color:red">$sql</span>="select * from <b>credentials</b> ";<br>
+				<span style="color:red">$result</span>=mysqli_query(<span style="color:red">$db</span>,<span style="color:red">$sql</span>);<br>
+					
+				</div>
+				}<br>
+				
+				<span style="color:blue">session_destroy()</span>;<br>
+				
+								
+								&lt;!DOCTYPE html&gt;<br>
+				&lt;html&gt;<br>
+				&lt;head&gt;<br>
+				&lt;title&gt;signing up&lt;/title&gt;<br>
+				
+				&lt;/head&gt;	<br>
+				<div class="fom" style="color:gray;margin-left:2%;"  >
+				&lt;body&gt;<br>
+				&lt;table&gt;<br><br>
+				
+				 <span style="color:red">&lt;?php</span>&gt; <br>
+				 <span style="color:orange"> while($rows=mysql_fetch_assoc($result))</span><br><span style="color:hotpink">{</span><br>
+				  <span style="color:red">&lt;?&gt</span>; <br><br>
+				
+				&lt;tr&gt;<br>
+				<div class="tda">
+				&lt;th&gt;username&lt;/th&gt;<br>
+				&lt;th&gt;password&lt;/th&gt;<br>
+				</div>
+				&lt;tr&gt;<br><br>
+				&lt;tr&gt;<br>
+				
+				<div class="tda">
+				&lt;td&gt; <span style="color:red">&lt;?php</span>&gt; <span style="color:yellow"> echo $rows['username']   </span> <span style="color:red">&lt;?&gt</span>;&lt;/td&gt;<br>
+				&lt;td&gt; <span style="color:red">&lt;?php</span>&gt; <span style="color:yellow"> echo $rows['password']   </span> <span style="color:red">&lt;?&gt</span>;&lt;/td&gt;<br>
+				</div>
+				&lt;/tr&gt;<br><br>
+				 <span style="color:red">&lt;?php</span>&gt; <br>
+			<span style="color:hotpink">}</span><br>
+				  <span style="color:red">&lt;?&gt</span>; <br><br>
+				
+				
+				&lt;/table&gt;<br>
+				&lt;/body&gt;<br></div>
+				&lt;/html&gt;<br>
+				
+				
+				</div>
+						<div class="inner">
+				<u>Output</u><br>
+				<table>
+				<tr>
+				<th>username</th>
+				<th>password</th>
+				</tr><tr>
+				<td>Judah@gmail.com</td>
+				<td>1234</td>
+				</tr>
+				</table>
+				</div>
+				1.<b>mysql_fetch_assoc()</b><br>
+				Here we have introduced one more predefined function,<b>mysql_fetch_assoc()</b>,it is used to fetch or take database values and make them readable through html.it has only one argument,which is suppossed to be a <b>mysqli_query()</b> which we inially assigned to <b>$result</b>,that is 
+		        <span style="color:red">$result</span>=mysqli_query(<span style="color:red">$db</span>,<span style="color:red">$sql</span>);.<br><br>
+				2.<b>$rows=mysql_fetch_assoc($result)</b><br>
+				Now we have a new variable we declared,<b>$rows</b>.It is used to hold our <i><b>mysql_fetch_assoc()</b></i> function.We then used it to directly fetch and display specific database values into specific html table cells(<b>$rows['username']</b>).
+				
+				<br><br>
+				3.Note that there is some php code we wrote inside the html code,the while statements starts inside a first php code of the table and ends in the second php code.<Br><br>
+				<BR><br>
+				<pre style="float:right">
+				Author :Judah Tamirirase Chisare
+				Cell   :0785430774/0716823189
+				Email  :jaycea247@gmail.com/n0182078j@students.nust.ac.zw
+				Address:1725 Westlea,Harare Zimbabwe.
+				</pre>
+			
+				
+</body>
+</html>

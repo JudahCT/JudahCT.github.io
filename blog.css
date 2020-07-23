@@ -1,0 +1,156 @@
+
+@media only screen and (min-width:768px ) {
+  
+
+body{
+display:auto;
+margin:2%;
+background-color:azure;
+background-size:cover;
+
+}
+
+header
+
+{
+	background-color:pink;
+	background-image:url(php.jpg);
+	text-align:center;
+	color:white;
+	padding:2%;
+	text-shadow:2px 2px #ff0000;
+	border:1.5px solid red;
+}
+hr{color:navy;height:1%;}
+.fomu{
+	color:green;
+	margin:3%;
+	font-size:100%
+}
+.example{
+	background-color:black;
+	color:white;
+	opacity:0.75;
+	font-size:84%;%;
+	
+}
+
+.inner{
+	background-color:gray;
+	color:navy;
+}
+
+u{color:navy;
+font-size:115%;
+}
+
+.tda{margin-left:2%;}
+
+table th,td{
+	border:1px solid pink;
+	
+}
+
+table{border-collapse:collapse;
+margin-left:%;
+margin-bottom:1%;
+background-color:white;
+}
+}
+
+
+
+@media only screen and (max-width:520px) {
+  
+
+body{
+display:auto;
+margin:2%;
+background-color:azure;
+font-size:87%;
+background-size:cover;
+width:98%;
+background-position:center;
+margin-right:3%;
+}
+ul li{
+	margin-right:5%;
+}
+header{
+	
+	background-image:url(php.jpg);
+	text-align:center;
+	color:white;
+	padding:2%;
+	text-shadow:2px 2px #ff0000;
+	border:1.5px solid red;
+	margin-right:2%;
+}
+hr{color:navy;}
+.fomu
+{
+	color:green;
+	margin:3%;
+	font-size:100%
+}
+.example{
+	background-color:black;
+	color:white;
+	opacity:0.75;
+	font-size:84%;
+	width:97%;
+	
+}
+
+
+pre{
+	font-size:75%;
+}
+
+.inner{
+	background-color:gray;
+	color:navy;
+	width:97%;
+}
+
+u{color:navy;
+font-size:115%;
+}
+
+.tda{margin-left:2%;}
+
+table th,td{
+	border:1px solid pink;
+	
+}
+
+.barwa 
+{
+	font-size:85%;
+	
+}
+.cala{background-color:white;
+border:1px solid white;
+border-radius:25px;
+padding:3.4%;
+margin:1%;
+margin-right:3%;
+
+}
+
+.longa{
+background-color:yellw;
+font-size:70%;
+}
+.only{
+	display:none;
+}
+
+table{
+border-collapse:collapse;
+
+margin-left:%;
+margin-bottom:1%;
+background-color:white;
+}
+}
