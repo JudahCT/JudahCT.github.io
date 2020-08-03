@@ -1,0 +1,30 @@
+
+@media only  screen and (max-width:567px){
+.one h1{
+color:white;
+  
+text-shadow:2px 2px cornflowerblue;
+background-size:cover;
+font-size:140%;
+
+padding:10%;
+}
+.one{
+background:rgba(1,0,0,0.6);
+padding-top:30%;
+padding-bottom:50%;
+
+}
+.one p{
+	color:white;
+	text-align:center;
+	padding-left:6%;
+	padding-right:6%;
+}
+
+
+.all{
+
+	background-image:url(3.jpg);
+	}
+}
