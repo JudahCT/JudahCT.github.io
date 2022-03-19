@@ -202,6 +202,212 @@ height:44em;
 
 
 }
+@media only screen and (max-width:200px ) {
+  body{
+  margin: 0;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-image:url(noow.jpg);
+  background-position:center;
+  background-repeat:no-repeat;
+  }
+  .all{
+    background:rgba(0, 0, 0, 0.8);
+ 
+padding-right: 5%;
+margin-top: 0;
+  }
+  .both{
+margin-top: 0;
+padding-right: 5.3%;
+    display: block;
+  background-color: black;
+  width: 100%;
+  opacity: 0.76;
+  padding-top:2%;
+  }
+
+  .name{
+    font-family: cursive;
+
+  color:pink;
+  margin-left: 5%;
+  font-size:90%;
+  margin-right: 0;
+  
+  }
+
+.one{
+  margin-left: 0;margin-top: 0;
+
+}
+
+  .one ul{
+    display:none;
+    margin-left: 0;
+margin-top: 0;
+background-color:gray;
+    padding-left: 4.4%;
+	width:100%;
+	margin-right:0;
+	  
+  }
+
+  .one ul li{
+    margin-bottom:4%;
+    list-style: none;
+margin-left: 0;
+
+  }
+  .one ul li a{
+    color:white;
+    text-decoration: none;
+    margin-right: 5px;
+	
+    font-size: 80%;
+  }
+
+  .one a:hover{
+  border-bottom:1px solid red;
+
+  }
+
+
+  .links  b{
+  padding: 0.4%;
+  background-color: red;
+  color: white;
+  border-radius: 0.3%;
+  margin-left: 5%;
+    font-size: 60%;
+    border-radius:3px;
+  }
+
+
+  .links  i{
+  padding: 0.4%;
+  background-color: gray;
+  color: white;
+  border-radius: 3px;
+  margin-left: 1%;
+  font-size: 60%;
+  }
+
+
+
+  .two{
+    margin-top:3%;
+    margin-left: 5%;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 100%;
+    margin-bottom: 1%;
+  }
+
+  .three{
+    color:white;
+  font-size: 70%;
+    margin-left: 5%;
+
+
+  }
+
+
+
+
+  .skills{
+    display: block;
+
+  }
+  .x{
+    margin-left: 9.5%;
+    background-color: white;
+    width: 85%;
+    font-size:70%;
+    margin-bottom: 6%;
+    height:15em;
+  }
+  .x h4{
+    background-color: teal;
+    padding: 4px;
+    margin-top: 0;
+  }
+
+  .y{
+    margin-left: 9.5%;
+    background-color: teal;
+      width: 85%;
+      font-size:70%;
+      margin-bottom: %;
+      height:15em;
+  }
+  .y h4{
+    background-color: white;
+    padding: 4px;
+
+  }
+
+  .z{
+    margin-left: 9.5%;
+    background-color: white;
+      width: 85%;
+      font-size:70%;
+      height:15em;
+
+  }
+  .z h4{
+    background-color: teal;
+    padding: 4px;
+    margin-top: 0;
+  }
+
+
+.why{
+  margin-left: 0;
+}
+.ico ul{
+  margin-left: 0;
+  margin-top: 0;
+margin-top:7%}
+
+.ico a {
+  padding:10px;
+
+}
+
+
+.pro img{
+margin-top: 2%;
+  width: 40%;
+  opacity: 0.9;
+  border-radius: 3px;
+}
+
+
+
+.last{
+
+  background: rgba(0, 0, 0, 0.65);
+}
+
+.pri{display: none;}
+
+
+
+iframe{
+	width:100%;
+	height:34.4em;
+	margin-right:0;
+}
+
+.name button{
+	float:right;
+}
+	
+	
+}
 @media only screen and (max-width:500px ) {
   body{
   margin: 0;
